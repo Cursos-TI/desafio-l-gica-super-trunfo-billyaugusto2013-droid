@@ -109,5 +109,15 @@ if (densidadepopulacional > densidadepopulacional2) {
 } else{
     printf("\nresultado carta1 %s venceu.\n", estado);
 }   
-
+switch (menu){
+    case 1:
+    printf("iniciar o jogo\n");
+    break;
+    case 2:
+    printf("regras\n");
+    break;
+    case 3:
+    printf("sair\n");
+    break;
+}
 }
